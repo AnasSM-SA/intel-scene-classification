@@ -1,0 +1,69 @@
+{
+  "source": "Saved outputs from the original notebook; not a new training run.",
+  "selected_experiment": "Regularized CNN",
+  "test_images": 3000,
+  "accuracy": 0.824,
+  "weighted_precision": 0.8224022274895181,
+  "weighted_recall": 0.824,
+  "weighted_f1": 0.8224985990358512,
+  "test_loss": 0.538864016532898,
+  "best_epoch": 10,
+  "class_names": [
+    "buildings",
+    "forest",
+    "glacier",
+    "mountain",
+    "sea",
+    "street"
+  ],
+  "confusion_matrix": [
+    [
+      325,
+      12,
+      5,
+      6,
+      10,
+      79
+    ],
+    [
+      4,
+      466,
+      1,
+      2,
+      0,
+      1
+    ],
+    [
+      7,
+      6,
+      445,
+      62,
+      26,
+      7
+    ],
+    [
+      14,
+      6,
+      82,
+      382,
+      39,
+      2
+    ],
+    [
+      20,
+      5,
+      29,
+      28,
+      425,
+      3
+    ],
+    [
+      38,
+      20,
+      6,
+      3,
+      5,
+      429
+    ]
+  ]
+}
